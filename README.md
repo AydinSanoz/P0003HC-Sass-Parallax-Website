@@ -1,6 +1,6 @@
 # P0003HC-Sass-Parallax-Website
 ## ScreenShot
-![ScreenShot](./images/parallaxWeb.gif)
+![ScreenShot](./img/parallaxWeb.gif)
 
 ## WebSite Link
 
