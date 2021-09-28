@@ -11,7 +11,26 @@
         <div class="ptext">
             <span class="parallax-backimg--text" id="border">
                 PARALLAX WEBSITE ppphhhppp
+                
             </span>
+            #####################################################
+            <?
+#####Code: www.ozengen.com
+Serkan ÇATALTAŞ##########
+$ip = $_SERVER[‘REMOTE_ADDR’];
+if ( !file_exists(“ip.txt”)) {
+touch(“ip.txt”);
+$file = @fopen(“ip.txt”, “+r”);
+@fclose($file);
+header( ‘refresh: 1; url=/’ );
+} else {
+$file = @fopen(“ip.txt”, “a”);
+$text = “—————————–“. “\r\n” . “Tarih : ” . date(‘d/m/Y – H:i’) . “\r\n” . “IP Adresi :” . “\r\n” . $ip . “\r\n”. “—————————–” . “\r\n”;
+@fwrite($file, $text);
+@fclose($file);
+}
+?>
+            #########################################
         </div>
 
     </div>
